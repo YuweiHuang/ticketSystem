@@ -1,2 +1,2 @@
 # ticketSystem
-http://mldm.ict.ac.cn/ticketsystem/
+A business ticket recommended system based on java.

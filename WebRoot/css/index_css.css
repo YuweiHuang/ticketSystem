@@ -1,0 +1,126 @@
+/*body{
+	background: #222222;
+}*/
+.carouselofindex{
+	margin-top: 0;
+	width: 31em;
+	height: 23em;
+	margin-left: 0;
+	margin-right: auto;
+}
+.maxpicturesize{
+	width: 31em;
+	height: 23em;
+}
+.navbottom{
+	margin-bottom: 0;
+}
+.footer{
+	background: #222222;
+	padding: 60px 0px 20px;
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.4);
+	text-align: left;
+}
+.row{
+	margin-left:-15px;
+	margin-right: -15px;
+}
+.footerrow{
+	width: 50%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 0;
+}
+.separator{
+	background:rgba(255, 255, 255, 0.15) none repeat scroll 0% 0%;
+	height: 1px;
+	margin: 30px 0px;
+}
+/*.ticketBox{
+	width: 100%;
+	height: 10em;
+	color: black;
+}*/
+.form-search{
+	margin: 0 auto;
+	max-width:28em; 
+	padding: 5em;
+}
+.div-search{
+	margin: 0 auto;
+	max-width:60em; 
+	padding: 5em;
+}
+/*.ticketBoxChild{
+	color:black;
+	margin-top: -0.5em;
+	margin-bottom: 0;
+	margin-right: 0.5em;
+	padding: 0;
+	float:left;
+}*/
+.content{
+	text-align:center;
+}
+
+.ticketBoxSeparator{
+	color:black;
+	border-bottom:1px solid #337AB7;
+}
+/*loading动画部分*/
+.spinner {
+  margin: 100px auto;
+  width: 50px;
+  height: 60px;
+  text-align: center;
+  font-size: 10px;
+}
+ 
+.spinner > div {
+  background-color: #67CF22;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+   
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+ 
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+ 
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+ 
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+ 
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+ 
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+ 
+@keyframes stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
